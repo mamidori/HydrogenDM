@@ -1,0 +1,42 @@
+﻿<Window x:Class="HydrogenDesktopMascot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HydrogenDesktopMascot"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="512" Width="384"
+        AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        MouseLeftButtonUp="Window_MouseLeftButtonUp"
+        MouseMove="Window_MouseMove"
+        MouseWheel="Window_MouseWheel">
+    <Canvas Height="512" Width="384" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Image x:Name="backHair" Source="./Hydrogen/backHair.png" />
+        <Image x:Name="leftArm" Source="./Hydrogen/leftArm.png" />
+        <Image x:Name="rightArm" Source="./Hydrogen/rightArm.png" />
+        <Image x:Name="leftLeg" Source="./Hydrogen/leftLeg.png" />
+        <Image x:Name="rightLeg" Source="./Hydrogen/rightLeg.png" />
+        <Image x:Name="body" Source="./Hydrogen/body.png" />
+        <Image x:Name="neckless" Source="./Hydrogen/neckless.png" />
+        <Image x:Name="face" Source="./Hydrogen/face.png" />
+        <Image x:Name="centerBoa" Source="./Hydrogen/centerBoa.png" />
+        <Image x:Name="leftSclera" Source="./Hydrogen/leftSclera.png" />
+        <Image x:Name="leftIris" Source="./Hydrogen/leftIris.png" />
+        <Image x:Name="leftEye" Source="./Hydrogen/leftEye.png" />
+        <Image x:Name="rightSclera" Source="./Hydrogen/rightSclera.png" />
+        <Image x:Name="rightIris" Source="./Hydrogen/rightIris.png" />
+        <Image x:Name="rightEye" Source="./Hydrogen/rightEye.png" />
+        <Image x:Name="cheek" Source="./Hydrogen/cheek.png" />
+        <Image x:Name="mouth" Source="./Hydrogen/mouth.png" />
+        <Image x:Name="nose" Source="./Hydrogen/nose.png" />
+        <Image x:Name="leftHair" Source="./Hydrogen/leftHair.png" />
+        <Image x:Name="rightHair" Source="./Hydrogen/rightHair.png" />
+        <Image x:Name="centerHair" Source="./Hydrogen/centerHair.png" />
+        <Image x:Name="topHair" Source="./Hydrogen/topHair.png" />
+        <Image x:Name="leftBrows" Source="./Hydrogen/leftBrows.png" />
+        <Image x:Name="rightBrows" Source="./Hydrogen/rightBrows.png" />
+
+    </Canvas>
+
+</Window>

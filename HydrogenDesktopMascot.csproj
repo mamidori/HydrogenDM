@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Hydrogen\backHair.png" />
+    <None Remove="Hydrogen\body.png" />
+    <None Remove="Hydrogen\centerBoa.png" />
+    <None Remove="Hydrogen\centerHair.png" />
+    <None Remove="Hydrogen\cheek.png" />
+    <None Remove="Hydrogen\face.png" />
+    <None Remove="Hydrogen\leftArm.png" />
+    <None Remove="Hydrogen\leftBrows.png" />
+    <None Remove="Hydrogen\leftEye.png" />
+    <None Remove="Hydrogen\leftEye_close.png" />
+    <None Remove="Hydrogen\leftHair.png" />
+    <None Remove="Hydrogen\leftIris.png" />
+    <None Remove="Hydrogen\leftLeg.png" />
+    <None Remove="Hydrogen\leftSclera.png" />
+    <None Remove="Hydrogen\mouth.png" />
+    <None Remove="Hydrogen\mouth_open.png" />
+    <None Remove="Hydrogen\neckless.png" />
+    <None Remove="Hydrogen\nose.png" />
+    <None Remove="Hydrogen\rightArm.png" />
+    <None Remove="Hydrogen\rightBrows.png" />
+    <None Remove="Hydrogen\rightEye.png" />
+    <None Remove="Hydrogen\rightEye_close.png" />
+    <None Remove="Hydrogen\rightHair.png" />
+    <None Remove="Hydrogen\rightIris.png" />
+    <None Remove="Hydrogen\rightLeg.png" />
+    <None Remove="Hydrogen\rightSclera.png" />
+    <None Remove="Hydrogen\topHair.png" />
+    <None Remove="イラスト11.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Hydrogen\backHair.png" />
+    <Resource Include="Hydrogen\body.png" />
+    <Resource Include="Hydrogen\centerBoa.png" />
+    <Resource Include="Hydrogen\centerHair.png" />
+    <Resource Include="Hydrogen\cheek.png" />
+    <Resource Include="Hydrogen\face.png" />
+    <Resource Include="Hydrogen\leftArm.png" />
+    <Resource Include="Hydrogen\leftBrows.png" />
+    <Resource Include="Hydrogen\leftEye.png" />
+    <Resource Include="Hydrogen\leftEye_close.png" />
+    <Resource Include="Hydrogen\leftHair.png" />
+    <Resource Include="Hydrogen\leftIris.png" />
+    <Resource Include="Hydrogen\leftLeg.png" />
+    <Resource Include="Hydrogen\leftSclera.png" />
+    <Resource Include="Hydrogen\mouth.png" />
+    <Resource Include="Hydrogen\mouth_open.png" />
+    <Resource Include="Hydrogen\neckless.png" />
+    <Resource Include="Hydrogen\nose.png" />
+    <Resource Include="Hydrogen\rightArm.png" />
+    <Resource Include="Hydrogen\rightBrows.png" />
+    <Resource Include="Hydrogen\rightEye.png" />
+    <Resource Include="Hydrogen\rightEye_close.png" />
+    <Resource Include="Hydrogen\rightHair.png" />
+    <Resource Include="Hydrogen\rightIris.png" />
+    <Resource Include="Hydrogen\rightLeg.png" />
+    <Resource Include="Hydrogen\rightSclera.png" />
+    <Resource Include="Hydrogen\topHair.png" />
+    <Resource Include="イラスト11.png" />
+  </ItemGroup>
+
+</Project>
